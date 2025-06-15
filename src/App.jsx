@@ -44,7 +44,6 @@ function App() {
       return;
     }
 
-    // Split by newline or comma, then trim and filter out empty strings
     const potentialAddresses = inputText
       .split(/[\n,]+/) // Split by one or more newlines or commas
       .map(addr => addr.trim())

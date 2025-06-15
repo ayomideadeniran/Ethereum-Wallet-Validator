@@ -1,12 +1,12 @@
 body {
   font-family: sans-serif;
-  margin: 0; /* Remove default margin */
+  margin: 0; 
   background-color: #f4f7f6;
   color: #333;
   display: flex;
-  justify-content: center; /* Center horizontally */
-  align-items: center; /* Center vertically */
-  min-height: 100vh; /* Ensure body takes full viewport height */
+  justify-content: center; 
+  align-items: center; 
+  min-height: 100vh;
 }
 
 .container {
@@ -34,25 +34,25 @@ h2, h3 {
   width: 100%;
   box-sizing: border-box;
   padding: 10px;
-  margin-bottom: 15px; /* Increased space before buttons */
+  margin-bottom: 15px; 
   border: 1px solid #ccc;
   border-radius: 4px;
   font-size: 1rem;
-  min-height: 100px; /* Ensure a decent minimum height */
-  resize: vertical; /* Allow user to resize vertically */
+  min-height: 100px; 
+  resize: vertical; 
 }
 
 .action-buttons {
   display: flex;
-  gap: 10px; /* Space between buttons */
-  margin-bottom: 25px; /* Space after button group */
+  gap: 10px;
+  margin-bottom: 25px; 
 }
 
-.action-buttons button { /* Base style for buttons in this group */
-  flex-grow: 1; /* Allow buttons to share space if needed */
-  padding: 12px 15px; /* Slightly larger padding */
+.action-buttons button { 
+  flex-grow: 1; 
+  padding: 12px 15px; 
   border: none;
-  border-radius: 5px; /* Slightly more rounded */
+  border-radius: 5px;
   cursor: pointer;
   font-size: 1rem;
   font-weight: 500;
@@ -94,11 +94,11 @@ h2, h3 {
   border-bottom: 1px solid #eee;
   display: flex;
   align-items: center;
-  gap: 8px; /* Space between icon and text */
+  gap: 8px; 
 }
 
 .results-section li:last-child {
-  border-bottom: none; /* Remove border for the last item */
+  border-bottom: none; 
 }
 
 .results-section li.invalid span {
@@ -107,7 +107,7 @@ h2, h3 {
 }
 
 .address-text {
-  word-break: break-all; /* Prevent long addresses from breaking layout */
+  word-break: break-all; 
 }
 
 .copy-textarea {
@@ -118,7 +118,7 @@ h2, h3 {
   margin-bottom: 15px;
   border: 1px solid #ccc;
   border-radius: 4px;
-  background-color: #3498db; /* Light background for readability */
+  background-color: #3498db; 
   font-family: monospace;
   min-height: 60px;
   resize: vertical;
